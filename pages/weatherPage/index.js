@@ -42,12 +42,9 @@ export default function Home() {
     return axios
       .get(unsplashURL)
       .then((response) => {
-        const randomNumber = Math.floor(Math.random() * 10);
         setImage(response.data);
-        console.log(response.data);
       })
       .catch((error) => {
-        console.log(error);
         if (error.response && error.response.status === 404) {
           setError(true);
         }
@@ -65,10 +62,8 @@ export default function Home() {
       .get(url)
       .then((response) => {
         setWeather(response.data);
-        console.log(response.data);
       })
       .catch((error) => {
-        console.log(error);
         if (error.response && error.response.status === 404) {
           setError(true);
         }
@@ -83,9 +78,15 @@ export default function Home() {
     Promise.all([fetchWeather(), fetchImage()])
       .then(() => {})
       .catch((error) => {
-        console.log(error);
+
       });
   };
+
+  const fallbackImageUrl = "https://source.unsplash.com/KWTkd7mHqKE"
+
+  const imageUrl = image.results && image.results.length > 0
+  ? `https://source.unsplash.com/${image.results[0].id}`
+  : fallbackImageUrl;
 
   if (loading) {
     return <Loading />;
@@ -95,7 +96,7 @@ export default function Home() {
         <div className="weather-background"> </div>
         <div className="background-image">
           <Image
-            src={`https://source.unsplash.com/${image.results[0].id}`}
+            src={imageUrl}
             priority={true}
             width={viewportWidth}
             height={viewportHeight}
