@@ -1,4 +1,4 @@
-#The Nextjs Wake Up Website is Here!
+## The Nextjs Wake Up Website is Here!
 
 When we wake up, our first actions are to look at our phones to get caught up for the day. But what if you wanted to limit that time while still gaining all important information?
 
