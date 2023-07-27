@@ -9,7 +9,7 @@ You can view the website here https://wake-up-ten.vercel.app.
 Note: the newsapi's free tier doesn't allow for commercial use, so you can't access the news section of the website, just skip over it. If anyone has a free solution to this, let me know.
 
 If you want to use the website freely unrestricted for daily use:
-1. Download the code using git clone <repository_url>
+1. Download the code using git clone < https://github.com/Hetul3/wake-up >
 2. Download these dependencies for Nextjs:
    
     "axios": "^1.4.0",
