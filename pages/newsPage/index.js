@@ -124,7 +124,6 @@ export default function NewsPage() {
         <Link href="stocksPage">
           <button
             className={`next-news-button ${fetched ? "show" : "show"}`}
-            disabled={!fetched}
           >
             Next Page -&gt;
           </button>
