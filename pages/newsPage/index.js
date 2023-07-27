@@ -77,6 +77,7 @@ export default function NewsPage() {
         onClick={fetchNews}
         disabled={fetched}
       >
+        
         {`${!fetched ? "What is Happening in the World" : ""}`}
       </button>
       <div className="news-container-parent">
@@ -122,7 +123,7 @@ export default function NewsPage() {
       <div className="news-center-button-container">
         <Link href="stocksPage">
           <button
-            className={`next-news-button ${fetched ? "show" : ""}`}
+            className={`next-news-button ${fetched ? "show" : "show"}`}
             disabled={!fetched}
           >
             Next Page -&gt;
