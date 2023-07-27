@@ -1,8 +1,51 @@
-## The Nextjs Wake Up Website is Here!
+<h1 align="center">
+   The Wake Up Website is Here!
+</h1>
+
+<p align="center">
+<img src="https://github.com/Hetul3/wake-up/assets/97708864/eebab369-0450-4b2b-8665-9b47f36bbd2f" alt="first" />
+</p>
+
 
 When we wake up, our first actions are to look at our phones to get caught up for the day. But what if you wanted to limit that time while still gaining all important information?
 
 Introduce this to your morning routine and take 2 minutes to get caught up on the weather, stocks, news, and have a quote to motivate you throughout the day.
+
+<h2 align="center">
+   Weather
+</h2>
+
+<p align="center">
+<img src="https://github.com/Hetul3/wake-up/assets/97708864/5c275bd2-9ee0-4f01-a79f-f427e630a069" alt="first" />
+</p>
+
+
+<h2 align="center">
+   News
+</h2>
+
+<p align="center">
+<img src="https://github.com/Hetul3/wake-up/assets/97708864/73e046b1-5bc2-4596-acd5-f1f8f12c11f8" alt="first" />
+</p>
+
+
+<h2 align="center">
+   Stocks
+</h2>
+
+<p align="center">
+<img src="https://github.com/Hetul3/wake-up/assets/97708864/5931b754-3090-4bab-8808-5cd008eeea6f" alt="first" />
+</p>
+
+
+<h2 align="center">
+   Motivation
+</h2>
+
+<p align="center">
+<img src="https://github.com/Hetul3/wake-up/assets/97708864/772298b6-7fb3-4896-886a-bac466f5a2dc" alt="first" />
+</p>
+
 
 
 You can view the website here https://wake-up-ten.vercel.app.
