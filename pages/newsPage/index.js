@@ -15,10 +15,8 @@ export default function NewsPage() {
       .then((response) => {
         setNews(response.data);
         setFetched(true);
-        console.log(news);
       })
       .catch((error) => {
-        console.log(error);
       });
   };
 

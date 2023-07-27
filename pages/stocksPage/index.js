@@ -57,7 +57,6 @@ export default function Home() {
     try {
       const data = await fetchStockData(stockSymbols);
       setStockData(data);
-      console.log(data);
     } catch (error) {
       console.error("Error fetching data:", error);
     }

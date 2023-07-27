@@ -70,7 +70,6 @@ export default function QuotesPage() {
         },
       });
       setQuote(response.data[0]);
-      console.log(quote);
     } catch (error) {
       if (error.response) {
         console.error("Error Status:", error.response.status);
